@@ -1,0 +1,39 @@
+<div class="col-md-12 ">
+
+
+    <div class="row">
+        <div class="col-md-2">
+
+        </div>
+
+        <div class=" col-md-10 justify-content-center">
+            <h4 class="text-success">Datos Generales</h4>
+            <img style="width: 200px; height: 200px" src="assets/img/yo.jpg" alt="">
+            <label>Nombre: {{datos.nombre}}</label>
+            <br>
+            <label>Email:  {{datos.email}} </label>
+            <br>
+            <label>Dirección:  {{datos.direccion}} </label>
+            <br>
+            <label>Teléfono:  {{datos.telefono}}</label>
+            <br>
+            <br>
+            <button class="btn bg-success" (click)="mostrarOcultar()">
+                Información
+                
+            </button>
+            <p *ngIf="mostrar">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum blanditiis doloremque ullam harum, explicabo corporis itaque pariatur, est voluptate officia fugiat, molestias quae dolor assumenda culpa aut natus quis doloribus?
+            </p>
+            <br>
+            <br>
+
+        </div>
+    </div>
+</div>
+<div class="social-bar">
+    <a href="https://www.facebook.com/Eymie.Vera.Rodriguez" class="icon icon-facebook icon-facebook2" target="_blank"></a>
+    <a href="https://twitter.com/" class="icon icon-twitter" target="_blank"></a>
+    <a href="https://www.youtube.com/channel/UCMuU3GBEgVL74fmf36riQvg?view_as=subscriber" class="icon icon-youtube" target="_blank"></a>
+    <a href="https://www.instagram.com/eymie_vera/" class="icon icon-instagram" target="_blank"></a>
+</div>
